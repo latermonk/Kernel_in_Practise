@@ -15,7 +15,13 @@ if U want
 
 ### iptables way 
 
-	iptables -A INPUT -p icmp  -s 0/0 -j DROP
+#### enable:
+
+	iptables -A INPUT -p icmp --icmp-type 8 -s 0/0 -j DROP 
+
+#### disable:
+
+	iptables -D INPUT -p icmp --icmp-type 8 -s 0/0 -j DROP
 
 
 ### module programming
