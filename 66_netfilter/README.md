@@ -11,7 +11,7 @@
 
 ## iptables forbidden ping localhost
 
-if I want 
+if U want 
 
 ### iptables way 
 
