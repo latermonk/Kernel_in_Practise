@@ -11,8 +11,14 @@
 
 ## iptables forbidden ping localhost
 
+if I want 
+
 ### iptables way 
 
+	iptables -A INPUT -p icmp  -s 0/0 -j DROP
 
 
 ### module programming
+
+	module progrmming
+
