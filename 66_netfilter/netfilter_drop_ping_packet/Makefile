@@ -1,6 +1,6 @@
 ########Makefile for Debian 4.0rc3
 
-test = hello_world
+test = drop_icmp
 obj-m := $(test).o
 KERNELDIR = /lib/modules/`uname -r`/build
 PWD = `pwd`
